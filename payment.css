@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    border-radius: 1em;
+}
+body{
+    padding: 34px;
+    background: mintcream;
+    border-left-color: grey;
+}
+
+h1{
+    text-align: center;
+    background: lightgray;
+    padding: 20px;
+    margin: 1.8rem;
+}
+p{
+    text-align: justify;
+    padding: 4px;
+    color: brown;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    border-width: 15rem;
+}
+legend{
+    color: brown;
+    padding: 0.3rem;
+}
+#card_type{
+    cursor: pointer;
+    touch-action: cross-slide-x;
+}
+input[type="submit"]{
+    cursor: pointer;
+    background-color: antiquewhite;
+    padding: 12px 40px;
+}
+button{
+    align-items: center;
+    font-size: large;
+    cursor: pointer;
+}
+h4{
+    align-items: center;
+    font-weight: 800;
+}
+button .:hover{
+    background-color: burlywood;
+}
